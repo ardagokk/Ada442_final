@@ -7,7 +7,7 @@ import sklearn
 import pickle
 
 st.write("hello")
-pickled_model = pickle.load(open(r'C:\Users\Arda\Desktop\Model\model12.pkl', 'rb'))
+pickled_model = pickle.load(open('Model/model12.pkl', 'rb'))
 
 
 bizimlist = []
